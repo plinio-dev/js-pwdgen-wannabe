@@ -3,4 +3,4 @@ var cognome = prompt("Qual'è il tuo cognome?")
 var colorepreferito = prompt ("Qual'è il tuo colore preferito?")
 var messaggio = (nome + cognome + colorepreferito);
 
-document.getElementById('risultato').innerhtml = "27" + messaggio;
+document.getElementById("risultato").innerHTML = "27" + messaggio;
